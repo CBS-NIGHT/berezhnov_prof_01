@@ -96,7 +96,7 @@ namespace Task3
             Person[] newPeople = new Person[Count - 1];
             int i = -1;
             foreach (var p in people)
-            {
+            { 
                 if (++i == index) continue;
 
                 if (i < index) newPeople[i] = p;
